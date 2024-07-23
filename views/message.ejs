@@ -1,0 +1,15 @@
+<!-- views/message.ejs -->
+<html>
+<head>
+    <title>Write a Message</title>
+</head>
+<body>
+    <h1>Write a Message</h1>
+    <form action="/message" method="post">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <textarea name="message" placeholder="Enter your message" required></textarea><br>
+        <button type="submit">Post</button>
+    </form>
+    <a href="/">Back to Messages</a>
+</body>
+</html>
